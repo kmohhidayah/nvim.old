@@ -7,8 +7,9 @@
       "filetypes": ["go"]
     }
   },
+  // Prettier
   "coc.preferences.formatOnSaveFiletypes": ["*"],
-
+  // explorer
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,

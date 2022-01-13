@@ -34,5 +34,5 @@ set formatoptions-=cro                  " Stop newline continution of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set relativenumber
 
-
+au BufRead,BufNewFile *.py set expandtab
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
